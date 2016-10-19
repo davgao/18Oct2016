@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(_event){
 
   var button = document.querySelector('#js-click');
   button.addEventListener('click', function(event){
-    debugger
+        console.log(url);
+        document.querySelector('#js-stuff').textContent = url;
   });
 });
